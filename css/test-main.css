@@ -1,0 +1,18 @@
+header{
+  display: flex;
+flex-direction: column;
+}
+nav{
+  height: 100px;
+}
+nav ul{
+  height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+  width: 200px;
+margin: 0 auto;
+}

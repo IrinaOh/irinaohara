@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'baskervillenormal';
+    src: url('baskvl-webfont.woff2') format('woff2'),
+         url('baskvl-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'audreymedium';
+    src: url('audrey-medium-webfont.woff2') format('woff2'),
+         url('audrey-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'audreyregular';
+    src: url('audrey-normal-webfont.woff2') format('woff2'),
+         url('audrey-normal-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield');
+@font-face {
+    font-family: 'brownlight';
+    src: url('brown-light-webfont.woff2') format('woff2'),
+         url('brown-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'brownregular_alt';
+    src: url('brown-regular-alt-webfont.woff2') format('woff2'),
+         url('brown-regular-alt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'brownregular';
+    src: url('brown-regular-webfont.woff2') format('woff2'),
+         url('brown-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

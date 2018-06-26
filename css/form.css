@@ -1,0 +1,40 @@
+.container{
+  width: 600px;
+  background-image: url(../images/marble-texture.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+.contact-form{
+  background-color: #f1e4e4;
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+.form-element{
+  width: 250px;
+  margin: 15px;
+}
+.form-element input, .form-element textarea{
+  padding: 10px;
+  border: 1px solid black;
+  width: 228px;
+}
+.form-textarea{
+  width: 530px;
+}
+.form-textarea textarea{
+  width: 508px;
+}
+.form-btn{
+  width: 100px;
+}
+.form-btn button{
+  background-color: white;
+  padding: 10px 30px;
+  border: 1px solid black;
+  width: 100px;
+}
