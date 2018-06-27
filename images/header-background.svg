@@ -3,45 +3,11 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1200 500" style="enable-background:new 0 0 1200 500;" xml:space="preserve">
 <style type="text/css">
-	.st0{display:none;}
-	.st1{display:inline;fill:#F1E4E4;}
-	.st2{display:inline;}
-	.st3{fill:#FFFFFF;}
-	.st4{display:inline;fill:none;stroke:#000000;stroke-width:0.3;}
-	.st5{opacity:0.7;clip-path:url(#SVGID_2_);fill:#F1E4E4;}
-	.st6{clip-path:url(#SVGID_2_);fill:#FFFFFF;}
+	.st0{opacity:0.7;fill:#F1E4E4;}
 </style>
 <g id="Layer_1">
-</g>
-<g id="Layer_2">
-</g>
-<g id="Layer_4" class="st0">
-	<rect x="0" y="411" class="st1" width="1200" height="178.9"/>
-</g>
-<g id="Layer_3">
-	<g class="st0">
-		<g class="st2">
-			<rect y="0" class="st3" width="1200" height="500"/>
-		</g>
-		<line class="st4" x1="0" y1="-54" x2="0" y2="-18"/>
-		<line class="st4" x1="-54" y1="0" x2="-18" y2="0"/>
-		<line class="st4" x1="-54" y1="500" x2="-18" y2="500"/>
-		<line class="st4" x1="0" y1="554" x2="0" y2="518"/>
-		<line class="st4" x1="1200" y1="-54" x2="1200" y2="-18"/>
-		<line class="st4" x1="1254" y1="0" x2="1218" y2="0"/>
-		<line class="st4" x1="1254" y1="500" x2="1218" y2="500"/>
-		<line class="st4" x1="1200" y1="554" x2="1200" y2="518"/>
-	</g>
-	<g>
-		<defs>
-			<rect id="SVGID_1_" x="-2" y="0" width="1202" height="500"/>
-		</defs>
-		<clipPath id="SVGID_2_">
-			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-		</clipPath>
-		<g style="clip-path:url(#SVGID_2_);">
-			
-				<image style="overflow:visible;" width="5845" height="2435" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEBXgFeAAD/7AARRHVja3kAAQAEAAAAHgAA/+4AIUFkb2JlAGTAAAAAAQMA
+	
+		<image style="overflow:visible;" width="5845" height="2435" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEBXgFeAAD/7AARRHVja3kAAQAEAAAAHgAA/+4AIUFkb2JlAGTAAAAAAQMA
 EAMCAwYAApvAAArVrwAWLP7/2wCEABALCwsMCxAMDBAXDw0PFxsUEBAUGx8XFxcXFx8eFxoaGhoX
 Hh4jJSclIx4vLzMzLy9AQEBAQEBAQEBAQEBAQEABEQ8PERMRFRISFRQRFBEUGhQWFhQaJhoaHBoa
 JjAjHh4eHiMwKy4nJycuKzU1MDA1NUBAP0BAQEBAQEBAQEBAQP/CABEICYMW2AMBIgACEQEDEQH/
@@ -25538,13 +25504,9 @@ yIxN4nDMg/8A6KHL/bsw6jDP8aIiP+3ZY/8A9OYP5Ig/Czy5VLY5/wCCi3ws4BLv7cn/ACQkfiZ5
 EDTHP/BER/2/5ET/AFDFk/8A5V3fC+QRp+1P/wDlQlP4GYk/04sn8ornj/2/OAdPbyE//sp4/B+T
 E/8Aamf/AN1Dl8D5AkLSGLJ/KKEf7T5AAsTimz//AEoD+0z8hqMc2/CKYfC+RW74pt/+ymj8POR/
 25//AMqD/B+SZ6n2Zt/+yvh5cvw88IRyAznLFOMYhrkmLf8A+Nz/2Q==" transform="matrix(0.2056 0 0 0.2054 -2.0001 0)">
-			</image>
-		</g>
-		<rect x="-2" y="0" class="st5" width="1201.1" height="500"/>
-		
-			<rect x="610.5" y="445.8" transform="matrix(0.9914 -0.1311 0.1311 0.9914 -61.3664 138.7256)" class="st6" width="824.1" height="178.9"/>
-		
-			<rect x="-232.3" y="426.8" transform="matrix(0.9842 0.1769 -0.1769 0.9842 94.1393 -23.6507)" class="st6" width="824" height="178.9"/>
-	</g>
+	</image>
+</g>
+<g id="Layer_2">
+	<rect x="-2" y="0" class="st0" width="1201.1" height="500"/>
 </g>
 </svg>

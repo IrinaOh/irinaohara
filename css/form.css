@@ -13,6 +13,20 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-end;
+  margin-top: 50px;
+}
+.contact-form-headline{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  text-align: center;
+  height: 150px;
+  padding: 0 50px;
+}
+.contact-form-headline h2{
+  margin: 10px;
 }
 .form-element{
   width: 250px;
