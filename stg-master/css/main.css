@@ -1,0 +1,407 @@
+/* ----------------------------------------------------- */
+/* --------- Typography: Importing Font Families ------- */
+/* ----------------------------------------------------- */
+@font-face {
+  font-family: 'baskervillenormal';
+  src: url('../fonts/baskerville/baskvl-webfont.woff2') format('woff2'),
+       url('../fonts/baskerville/baskvl-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'brownlight';
+  src: url('../fonts/brown/brown-light-webfont.woff2') format('woff2'),
+       url('../fonts/brown/brown-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/* ----------------------------------------------------- */
+/* --------- Typography: Heading & Body Copy ----------- */
+/* ----------------------------------------------------- */
+/* These are the font families of all the headings and body copy */
+
+body{
+	font-family: 'brownlight', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	max-width: 2400px;
+	margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+p{
+	font-family: "baskervillenormal", serif;
+	font-size: 16px;
+	line-height: 1.3;
+}
+
+/* -------------------------------------------------- */
+/* --------- Navigation: Main & Secondary ----------- */
+/* -------------------------------------------------- */
+/* Colors, style, floating, shapes, etc of main & secondary navs */
+
+/* Main Navigation Style */
+header{
+	display: flex;
+	flex-direction: column;
+	background-image: url(../images/header-background.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+}
+.logo{
+  width: 500px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+nav{
+  height: 100px;
+}
+#mainnav ul{
+	display: flex;
+  list-style: none;
+	justify-content: center;
+  align-items: center;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+#mainnav li{
+	margin: 10px 20px;
+}
+#mainnav a:link{
+	color: black;
+  text-decoration-line: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+#mainnav a:visited{
+	color: #637B87;
+}
+#mainnav a:hover{
+	color: #638783;
+}
+#mainnav a:active{
+	color: #D7D7D0;
+}
+
+/* Non-Navigational Link Styles */
+/* This is for all default links */
+a:link{
+	color: #637B87;
+}
+a:visited{
+	color: black;
+}
+a:hover{
+	color: #D7D7D0;
+}
+a:active{
+	color: #D7D7D0;
+}
+
+/* -------------------------------------------------- */
+/* ----------------  Main Section Styles ------------ */
+/* -------------------------------------------------- */
+/* -----------------     Home Page   ---------------- */
+/* -------------------------------------------------- */
+main{
+	max-width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.backsplash{
+	position: fixed;
+	z-index: -9;
+	top: 0;
+}
+.block{
+	width: 400px;
+	height: 450px;
+	background-color: #f1e4e4;
+	margin: 25px;
+}
+.block1, .block4, .block5{
+	border: 1px solid black;
+	position: relative;
+	background-color: white;
+}
+.block2, .block3, .block6{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 350px;
+}
+.block3,.block6{
+	height: 300px;
+}
+.block4, .block5{
+	height: 400px;
+}
+.block7{
+	width: 450px;
+	height: 100%;
+	padding: 50px;
+  padding-top: 0;
+  margin-top: 100px;
+}
+.about-text-holder{
+	width: 400px;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	text-align: left;
+	line-height: 1.5;
+}
+.block8{
+	width: 300px;
+  height: 340px;
+}
+.block10{
+	position: relative;
+	background-color: rgba(255, 255, 255, 0);
+	height: 50px;
+}
+.img-holder{
+	width: 300px;
+}
+.block img{
+	width: 400px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.img-holder img{
+	width: 300px;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	left: unset;
+}
+.headline-text-holder{
+	width: 300px;
+	height: 200px;
+	padding: 50px;
+}
+hr{
+	background-color: black;
+	border: none;
+	height: 1px;
+	width: 50px;
+	display: inline-block;
+	margin: 0;
+}
+.call-to-action{
+	border: 1px solid black;
+	padding: 8px;
+	font-size: 10px;
+	color: black;
+	text-decoration: none;
+	background-color: white;
+}
+.content-right{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	flex-direction: column;
+	width: 180px;
+	height: 150px;
+	text-align: right;
+}
+.content-left{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	width: 180px;
+	height: 150px;
+  text-align: left;
+}
+.content-left h2, .content-right h2{
+	margin: 10px 0;
+}
+.call-to-action-text{
+	background-color: rgba(59, 59, 59, 0.5);
+	position: absolute;
+	top: -90px;
+	right: -204px;
+	width: 380px;
+	height: 100px;
+	padding: 20px;
+	align-items: center;
+}
+.call-to-action-text p{
+	color: white;
+	font-size: 20px;
+	font-family: "brownlight", sans-serif;
+}
+.about-text-holder p{
+	line-height: 1.5;
+}
+/* gallery and investment pages */
+/* investment page */
+.investment-block{
+  background-color: #f1e4e4;
+  width: 320px;
+  height: 450px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+.background-div{
+  width: 260px;
+  height: 390px;
+  background-image:url("../images/marble-texture.jpg");
+  background-size: cover;
+  border: 1px solid black;
+}
+.header-text-box{
+  background-color: white;
+  width: 80%;
+  height: 100px;
+}
+.investment-img-holder{
+  width: 260px;
+  height: 300px;
+  margin-top: 30px;
+}
+.investment-img-holder img{
+	width: 100%;
+}
+.investment-category{
+  font-family: "brownlight", sans-serif;
+  font-weight: 200;
+  width: 150px;
+  margin: 0 auto;
+  border: 1px solid black;
+  background-color: white;
+  padding: 20px;
+  position: absolute;
+  bottom: 30px;
+}
+.investment-category p{
+  margin: 5px;
+}
+/* gallery page */
+.gallery-container{
+  max-width: 1200px;
+  margin: 50px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.gallery-block{
+  background-color: #f1e4e4;
+  width: 320px;
+  height: 480px;
+  margin: 20px;
+}
+.gallery-text-block{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.gallery-text-block p{
+  margin: 20px;
+  line-height: 1.5;
+  font-family: "brownlight", sans-serif;
+}
+
+/* -------------------------------------------------- */
+/* ----------------- Footer Styles ------------------ */
+/* -------------------------------------------------- */
+footer{
+	text-align: left;
+	background-color: #f1e4e4;
+	margin-top: 50px;
+	padding: 50px 0;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+.footer-block{
+	height: 150px;
+}
+.footer-block1{
+	width: 340px;
+}
+.footer-block2, .footer-block3{
+	width: 170px;
+}
+.footer-block p{
+	font-family: "brownlight", sans-serif;
+	font-weight: 200;
+	font-size: 13px;
+	margin: 5px;
+}
+.footer-block ul{
+	margin: 0;
+}
+.footer-block li{
+	margin: 5px;
+	padding-bottom: 5px;
+	list-style: none;
+}
+.footer-block a{
+	text-decoration: none;
+}
+
+
+/* -------------------------------------------------- */
+/* ----------- Responsive Navigation ------------- */
+/* -------------------------------------------------- */
+
+
+/* -------------------------------------------------- */
+/* ----------- Tablet Responsive Styles ------------- */
+/* -------------------------------------------------- */
+@media (max-width: 767px) {
+	nav{
+		height: 90px;
+	}
+	.logo{
+		width: 400px;
+    padding-bottom: 30px;
+	}
+  .gallery-container{
+    max-width: 600px;
+  }
+}
+
+/* -------------------------------------------------- */
+/* ------------- Mobile Responsive Styles ----------- */
+/* -------------------------------------------------- */
+@media (max-width: 480px) {
+
+  .gallery-container{
+    flex-direction: column;
+  }
+	/* footer */
+	.footer-block2{
+		order: 1;
+	}
+	.footer-block3{
+		order: 2;
+	}
+	.footer-block1{
+		order: 3;
+		width: 100%;
+		text-align: center;
+		padding-top: 30px;
+	}
+}
