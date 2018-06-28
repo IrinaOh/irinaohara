@@ -43,23 +43,7 @@ p{
 /* Colors, style, floating, shapes, etc of main & secondary navs */
 
 /* Main Navigation Style */
-header{
-	display: flex;
-	flex-direction: column;
-	background-image: url(../images/header-background.svg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top;
-}
-.logo{
-  width: 500px;
-	margin: 0 auto;
-	padding-bottom: 40px;
-}
-nav{
-  height: 100px;
-}
-#mainnav ul{
+/* #mainnav ul{
 	display: flex;
   list-style: none;
 	justify-content: center;
@@ -85,15 +69,15 @@ nav{
 }
 #mainnav a:active{
 	color: #D7D7D0;
-}
+} */
 
 /* Non-Navigational Link Styles */
 /* This is for all default links */
 a:link{
-	color: #637B87;
+	color: black;
 }
 a:visited{
-	color: black;
+	color: #637B87;
 }
 a:hover{
 	color: #D7D7D0;
@@ -371,13 +355,6 @@ footer{
 /* ----------- Tablet Responsive Styles ------------- */
 /* -------------------------------------------------- */
 @media (max-width: 767px) {
-	nav{
-		height: 90px;
-	}
-	.logo{
-		width: 400px;
-    padding-bottom: 30px;
-	}
   .gallery-container{
     max-width: 600px;
   }
@@ -387,7 +364,6 @@ footer{
 /* ------------- Mobile Responsive Styles ----------- */
 /* -------------------------------------------------- */
 @media (max-width: 480px) {
-
   .gallery-container{
     flex-direction: column;
   }
