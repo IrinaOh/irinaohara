@@ -12,21 +12,10 @@
     </script>
     <meta charset="utf-8">
     <title>About</title>
-    <link rel="stylesheet" href="../css/main.css">
+    <?php include('head-links.php'); ?>
   </head>
   <body>
-    <header>
-      <nav id="mainnav">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="investment.html">Investment</a></li>
-          <li><a href="formpage.html">Contact</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-      </nav>
-      <img src="../images/logov7.png" alt="logo" class="logo">
-    </header>
+    <?php include('header.php'); ?>
     <main>
       <img src="../images/backsplash.png" alt="splash drops" class="backsplash">
       <div class="block block3 block7">
@@ -48,25 +37,6 @@
         </div>
       </div>
     </main>
-    <footer>
-      <div class="footer-block footer-block1">
-        <p>All Rights Reserved @Irina O'Hara Photography 2018</p>
-        <p>Website Design & Development by Irina O'Hara</p>
-      </div>
-      <div class="footer-block footer-block2">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="investment.html">Investment</a></li>
-          <li><a href="formpage.html">Contact</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-      </div>
-      <div class="footer-block footer-block3">
-        <ul>
-          <li><a href="https://www.instagram.com/irinaoharaphotography/" target="_blank">Instagram</a></li>
-        </ul>
-      </div>
-    </footer>
+    <?php include('footer.php'); ?>
   </body>
 </html>

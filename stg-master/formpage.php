@@ -31,22 +31,11 @@
   </noscript>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <link rel="stylesheet" href="../css/form.css" >
-  <link rel="stylesheet" href="../css/main.css">
   <script src="../scripts/form.js"></script>
+      <?php include('head-links.php'); ?>
 </head>
 <body >
-  <header>
-    <nav id="mainnav">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="investment.html">Investment</a></li>
-        <li><a href="formpage.html">Contact</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
-    <img src="../images/logov7.png" alt="logo" class="logo">
-  </header>
+    <?php include('header.php'); ?>
   <div class="form-container">
     <form role="form" method="post" id="reused_form" class="contact-form">
       <div class="contact-form-headline">
@@ -81,25 +70,6 @@
     <div id="success_message" style="width:100%; height:100%; display:none; "> <h3>Sent your message successfully!</h3> </div>
     <div id="error_message" style="width:100%; height:100%; display:none; "> <h3>Error</h3> Sorry there was an error sending your form. </div>
   </div>
-  <footer>
-    <div class="footer-block footer-block1">
-      <p>All Rights Reserved @Irina O'Hara Photography 2018</p>
-      <p>Website Design & Development by Irina O'Hara</p>
-    </div>
-    <div class="footer-block footer-block2">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="investment.html">Investment</a></li>
-        <li><a href="formpage.html">Contact</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </div>
-    <div class="footer-block footer-block3">
-      <ul>
-        <li><a href="https://www.instagram.com/irinaoharaphotography/" target="_blank">Instagram</a></li>
-      </ul>
-    </div>
-  </footer>
+    <?php include('footer.php'); ?>
 </body>
 </html>
