@@ -5,21 +5,7 @@
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
-    font-family: 'audreymedium';
-    src: url('audrey-medium-webfont.woff2') format('woff2'),
-         url('audrey-medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'audreyregular';
-    src: url('audrey-normal-webfont.woff2') format('woff2'),
-         url('audrey-normal-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@import url('https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield');
+
 @font-face {
     font-family: 'brownlight';
     src: url('../fonts/brown/brown-light-webfont.woff2') format('woff2'),

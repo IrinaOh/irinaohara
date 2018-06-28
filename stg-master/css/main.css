@@ -304,6 +304,28 @@ hr{
   line-height: 1.5;
   font-family: "brownlight", sans-serif;
 }
+/* investment page */
+	.investment-block{
+		width: 260px;
+	}
+	.investment-img-holder{
+		margin-top: 0;
+	}
+	.investment-category{
+		width: 200px;
+		bottom: 14px;
+		margin: 20px;
+		padding-left: 20px;
+		position: relative;
+	}
+	.investment-category h2{
+		margin: 0;
+	}
+	.investment-category p {
+    margin: 0px;
+	}
+
+
 
 /* -------------------------------------------------- */
 /* ----------------- Footer Styles ------------------ */
@@ -364,9 +386,91 @@ footer{
 /* ------------- Mobile Responsive Styles ----------- */
 /* -------------------------------------------------- */
 @media (max-width: 480px) {
+	/* home page */
   .gallery-container{
     flex-direction: column;
+		max-width: 480px;
+		margin: 20px auto 0;
   }
+	.block{
+		width: 300px;
+		height: auto;
+	}
+	.block img {
+    width: 260px;
+    position: relative;
+	}
+	.block1{
+		display:none;
+	}
+	.block2{
+		order: 1;
+	}
+	.block3{
+		order: 3;
+	}
+	.block4{
+		order: 2;
+	}
+	.block5{
+		order: 4;
+	}
+	.block6{
+		order: 5;
+	}
+	.headline-text-holder h1{
+		font-size: 22px;
+		margin-bottom: 0;
+	}
+	/* gallery page */
+
+	.gallery-text-block h2{
+		margin: 0;
+	}
+	.gallery-block {
+    width: 260px;
+    height: 390px;
+    margin: 20px 10px;
+	}
+	.gallery-block img{
+		width: 100%;
+	}
+	.gallery-text-block{
+		height: 160px;
+	}
+	/* about page */
+	.block8{
+		order: 2;
+	}
+	.block7{
+		order: 1;
+		margin-top: 0;
+		padding: 10px;
+	}
+	.about-text-holder{
+		width: 300px;
+		max-height: 500px;
+		padding: 15px;
+	}
+	.block1{
+		order: 3;
+	}
+	.img-holder img {
+    top: 20px;
+    right: 20px;
+    left: 20px;
+	}
+	.block10{
+		height: auto;
+	}
+	.about-call-to-action-text{
+		position: relative;
+		top: 0;
+		right: 0;
+		height: auto;
+		text-align: center;
+		width: 280px;
+	}
 	/* footer */
 	.footer-block2{
 		order: 1;

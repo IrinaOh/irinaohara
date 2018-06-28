@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121238823-2"></script>
@@ -16,9 +15,9 @@
   </head>
   <body>
     <?php include('header.php'); ?>
-    <main>
+    <div class="gallery-container">
       <img src="../images/backsplash.png" alt="splash drops" class="backsplash">
-      <div class="block block3 block7">
+      <div class="block block7">
         <div class="about-text-holder">
           <h2>Hi, my name is Irina</h2>
           <hr>
@@ -31,12 +30,11 @@
         </div>
       </div>
       <div class="block block6 block10">
-        <div class="content-left call-to-action-text">
+        <div class="content-left call-to-action-text about-call-to-action-text">
           <p>I cannot wait to hear from you!</p>
           <a href="formpage.html" class="call-to-action">CONTACT ME</a>
         </div>
       </div>
-    </main>
+    </div>
     <?php include('footer.php'); ?>
   </body>
-</html>
